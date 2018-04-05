@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/magnitudeTxt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="5.0 SR"
+        />
+
+    <TextView
+        android:id="@+id/kedalamanTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/radius_img"
+        android:textColor="@color/clear"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/radius_img"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@id/magnitudeTxt"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/radius"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:id="@+id/wilayahTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kedalamanTxt"
+        android:layout_toRightOf="@id/magnitudeTxt"
+        android:textColor="@color/clear"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tanggalTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wilayahTxt"
+        android:layout_toRightOf="@id/magnitudeTxt"
+        android:textColor="@color/clear"
+        android:textSize="12sp" />
+
+</RelativeLayout>
