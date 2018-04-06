@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DeteksiGempa.iml" filepath="$PROJECT_DIR$/DeteksiGempa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeteksiGempa-master.iml" filepath="$PROJECT_DIR$/DeteksiGempa-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
