@@ -21,6 +21,7 @@
         android:id="@+id/kedalamanTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/mapButton"
         android:layout_toRightOf="@+id/radius_img"
         android:textColor="@color/clear"
         android:textSize="16sp"
@@ -41,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/kedalamanTxt"
+        android:layout_toLeftOf="@id/mapButton"
         android:layout_toRightOf="@id/magnitudeTxt"
         android:textColor="@color/clear"
         android:textSize="12sp" />
@@ -50,8 +52,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/wilayahTxt"
+        android:layout_toLeftOf="@id/mapButton"
         android:layout_toRightOf="@id/magnitudeTxt"
         android:textColor="@color/clear"
         android:textSize="12sp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_marker"
+        android:id="@+id/mapButton"/>
 
 </RelativeLayout>
